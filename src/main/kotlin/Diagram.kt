@@ -12,7 +12,9 @@ class Diagram {
         )
         averageTemperature.plot {
             line {
-                x("city")
+                x("city") {
+                    axis.name = "City"
+                }
                 y("average temperature") {
                     axis.name = "Average Temperature (°C)"
                 }
