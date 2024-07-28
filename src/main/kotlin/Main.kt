@@ -1,4 +1,4 @@
 fun main() {
-    val diagram: Diagram = Diagram()
+    val diagram = Diagram()
     diagram.create()
 }
